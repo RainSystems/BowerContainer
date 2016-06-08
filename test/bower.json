@@ -1,0 +1,22 @@
+{
+  "name": "bower-container",
+  "authors": [
+    "Jason Hendry <jason@rain.com.au>"
+  ],
+  "description": "bower for gantry",
+  "directory": "web/components",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.6.1"
+  }
+}
