@@ -1,5 +1,5 @@
 FROM node:5-slim
-RUN npm install -g bower@1.7.2
+RUN npm install -g bower@1.7.9
 # Used by bower for github packages
 RUN apt-get update && apt-get install -y git
 RUN mkdir /app
