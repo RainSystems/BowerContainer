@@ -4,6 +4,4 @@ RUN npm install -g bower@1.7.2
 RUN apt-get update && apt-get install -y git
 RUN mkdir /app
 WORKDIR /app
-COPY bower-wrap.sh /bower-wrap.sh
-RUN chmod +x /bower-wrap.sh
-ENTRYPOINT ["/bower-wrap.sh"]
+ENTRYPOINT ["/bower"]
